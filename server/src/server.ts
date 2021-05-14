@@ -6,7 +6,7 @@ import chalk from "chalk";
 import type { SyncPayload } from "@visly/state";
 import type { Patch } from "immer";
 
-import { appState } from "../../shared/src/state";
+import { appState } from "@spike-visly/shared";
 
 const app = enableWs(express()).app;
 

@@ -6,6 +6,7 @@
     "dev": "ts-node-dev src/server.ts"
   },
   "dependencies": {
+    "@spike-visly/shared": "0.1.0",
     "@visly/state": "^1.0.15",
     "express": "^4.17.1",
     "express-ws": "^4.0.0",
